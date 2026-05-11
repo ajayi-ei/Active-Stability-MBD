@@ -31,6 +31,7 @@ This repository contains a comprehensive suite of automated MBD analytics locate
 * MPC Specialized Analytics: High-fidelity spatial mapping (MPC_Obstacle_Trajectory.png) verifying Artificial Potential Field (APF) safety buffers during stalled-vehicle avoidance.
 * Rendered Telemetry Videos: Including All Models Race, Stanley Run, MPC Run, and Stanley vs. MPC comparative broadcast.
 
+```text
 📂 Repository Architecture
 
 Active_Stability_MBD/
@@ -49,6 +50,7 @@ Active_Stability_MBD/
     ├── plot_results.m             # Live Workspace Telemetry Engine
     ├── animate_multi_car_race.m   # Synchronized 30FPS Cinematic Broadcast Engine
     └── animate_drone_view.m       # High-Fidelity Single-Car Optical Flow Tracker
+```
 
 🚀 How to Run the Simulation
 
