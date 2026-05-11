@@ -43,12 +43,12 @@ Active_Stability_MBD/
 │   └── M05_MPC.slx
 ├── resources/              # Track matrices (Austin.csv) and Drone Tracker HUD assets (rc_car.png)
 └── scripts/                # MBD Initialization, Execution, and Analytics code
-    ├── car_init_M01... to M05...m  # Plant and Controller Initialization Scripts
-    ├── run_master_simulation.m     # Automated Batch Execution Pipeline
-    ├── generate_analytics_suite.m  # Solo/Pairwise A/B Plotting Engine
-    ├── plot_results.m              # Live Workspace Telemetry Engine
-    ├── animate_multi_car_race.m    # Synchronized 30FPS Cinematic Broadcast Engine
-    └── animate_drone_view.m        # High-Fidelity Single-Car Optical Flow Tracker
+    ├── car_init_M01... to M05...m # Plant and Controller Initialization Scripts
+    ├── run_master_simulation.m    # Automated Batch Execution Pipeline
+    ├── generate_analytics_suite.m # Solo/Pairwise A/B Plotting Engine
+    ├── plot_results.m             # Live Workspace Telemetry Engine
+    ├── animate_multi_car_race.m   # Synchronized 30FPS Cinematic Broadcast Engine
+    └── animate_drone_view.m       # High-Fidelity Single-Car Optical Flow Tracker
 
 🚀 How to Run the Simulation
 
