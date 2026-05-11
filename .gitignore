@@ -1,0 +1,20 @@
+# MATLAB/Simulink Auto-Generated Files
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.mexw64
+
+# Ignore loose .mat files (prevents accidental workspace dumps in the root folder)
+*.mat
+
+# EXPLICITLY ALLOW DATA FOLDER CONTENTS (Overrides the *.mat ignore)
+!data/
+!data/*.mat
+!data/*.png
+!data/*.mp4
+
+# Keep Project Directories
+!resources/
+!models/
+!scripts/

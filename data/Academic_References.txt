@@ -1,0 +1,7 @@
+These are some of the important academic resources which were beneficial to this project:
+
+- Snider, J. M., "Automatic Steering Methods for Autonomous Automobile Path Tracking," CMU-RI-TR-09-08, 2009.
+- Falcone, P., et al., "Predictive Active Steering Control for Autonomous Vehicle Systems," IEEE Transactions on Control Systems Technology, 2007.
+- Rajamani, R., "Vehicle Dynamics and Control," Springer, 2011.
+- Pacejka, H. B., "Tire and Vehicle Dynamics," Elsevier, 2005.
+- Panomruttanarug, B., et al., "Practical Speed Control for an Autonomous Golf Cart," ITC-CSCC, 2022.
