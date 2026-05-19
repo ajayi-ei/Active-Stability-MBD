@@ -191,7 +191,7 @@ if strcmp(plot_mode, 'Current Workspace (Single)')
     
     % CONSOLE OUTPUT
     fprintf('\n=== ACTIVE STABILITY: SINGLE RUN RESULTS ===\n');
-    fprintf('Path Adherance      : %.1f %%\n', completion_pct);
+    fprintf('Path Adherence      : %.1f %%\n', completion_pct);
     fprintf('Actual Average Speed  : %.2f m/s\n', avg_speed);
     fprintf('Network Latency       : 30 ms (Simulated)\n');
     fprintf('Degraded RMSE CTE     : %.3f meters\n', rmse_cte);
@@ -250,7 +250,7 @@ else
     xlabel('Time (s)'); ylabel('\delta Command (Degrees)');
     
     fprintf('\n=== ACTIVE STABILITY: COMPARATIVE ANALYTICS ===\n');
-    fprintf('%-15s | %-10s | %-12s | %-10s\n', 'MODEL', 'PATH ADHERANCE', 'AVG SPEED', 'RMSE CTE');
+    fprintf('%-15s | %-10s | %-12s | %-10s\n', 'MODEL', 'PATH ADHERENCE', 'AVG SPEED', 'RMSE CTE');
     fprintf(repmat('-', 1, 56)); fprintf('\n');
     
     for i = 1:num_files
