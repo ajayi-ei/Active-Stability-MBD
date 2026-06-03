@@ -1,0 +1,92 @@
+MODEL           	| PATH ADHERANCE |  AVG SPEED   | RMSE CTE  
+------------------------------------------------------------------
+ACTIVEYAW       	| 34.3     % 	 | 8.47     m/s | 3.352 m
+LQR             	| 80.0     % 	 | 6.13     m/s | 0.525 m
+MPC (clean track)       | 91.1     % 	 | 6.34     m/s | 0.464 m
+MPC (with obstacles)    | 88.8     % 	 | 6.10     m/s | 0.488 m
+PURE PURSUIT    	| 22.2     % 	 | 8.10     m/s | 6.615 m
+STANLEY         	| 34.0     % 	 | 8.82     m/s | 3.789 m
+==================================================================
+
+**% Path Adherance is defined by how much of the racing time a car stays within 0.7m of the ideal line.**
+
+=== EXPORTED VISUAL ANALYTICS ===
+The following high-resolution PNG plots are located in the /data directory. These files include individual model performance, global comparisons, exhaustive pairwise A/B overlays, and specialized MPC obstacle telemetry.
+
+[SOLO MODEL ANALYTICS]
+(Generated for each selected model, e.g., MPC)
+
+[MODEL]_SOLO_01_Traj.png
+
+[MODEL]_SOLO_02_Perf.png
+
+[MODEL]_SOLO_03_Tire.png
+
+[MODEL]_SOLO_04_Phase.png
+
+[MODEL]_SOLO_05_Actuator.png
+
+[GLOBAL OVERVIEW]
+(Overlay of all selected simulation files)
+6.  ALL_MODELS_01_Traj.png
+7.  ALL_MODELS_02_Perf.png
+8.  ALL_MODELS_03_Tire.png
+9.  ALL_MODELS_04_Phase.png
+10. ALL_MODELS_05_Actuator.png
+
+[PAIRWISE COMPARISONS]
+(Exhaustive combinations based on specific file names)
+11. ACTIVEYAW_vs_LQR_01_Traj.png
+12. ACTIVEYAW_vs_LQR_02_Perf.png
+13. ACTIVEYAW_vs_LQR_03_Tire.png
+14. ACTIVEYAW_vs_LQR_04_Phase.png
+15. ACTIVEYAW_vs_LQR_05_Actuator.png
+16. ACTIVEYAW_vs_MPC_01_Traj.png
+17. ACTIVEYAW_vs_MPC_02_Perf.png
+18. ACTIVEYAW_vs_MPC_03_Tire.png
+19. ACTIVEYAW_vs_MPC_04_Phase.png
+20. ACTIVEYAW_vs_MPC_05_Actuator.png
+21. ACTIVEYAW_vs_PUREPURSUIT_01_Traj.png
+22. ACTIVEYAW_vs_PUREPURSUIT_02_Perf.png
+23. ACTIVEYAW_vs_PUREPURSUIT_03_Tire.png
+24. ACTIVEYAW_vs_PUREPURSUIT_04_Phase.png
+25. ACTIVEYAW_vs_PUREPURSUIT_05_Actuator.png
+26. ACTIVEYAW_vs_STANLEY_01_Traj.png
+27. ACTIVEYAW_vs_STANLEY_02_Perf.png
+28. ACTIVEYAW_vs_STANLEY_03_Tire.png
+29. ACTIVEYAW_vs_STANLEY_04_Phase.png
+30. ACTIVEYAW_vs_STANLEY_05_Actuator.png
+31. LQR_vs_MPC_01_Traj.png
+32. LQR_vs_MPC_02_Perf.png
+33. LQR_vs_MPC_03_Tire.png
+34. LQR_vs_MPC_04_Phase.png
+35. LQR_vs_MPC_05_Actuator.png
+36. LQR_vs_PUREPURSUIT_01_Traj.png
+37. LQR_vs_PUREPURSUIT_02_Perf.png
+38. LQR_vs_PUREPURSUIT_03_Tire.png
+39. LQR_vs_PUREPURSUIT_04_Phase.png
+40. LQR_vs_PUREPURSUIT_05_Actuator.png
+41. LQR_vs_STANLEY_01_Traj.png
+42. LQR_vs_STANLEY_02_Perf.png
+43. LQR_vs_STANLEY_03_Tire.png
+44. LQR_vs_STANLEY_04_Phase.png
+45. LQR_vs_STANLEY_05_Actuator.png
+46. MPC_vs_PUREPURSUIT_01_Traj.png
+47. MPC_vs_PUREPURSUIT_02_Perf.png
+48. MPC_vs_PUREPURSUIT_03_Tire.png
+49. MPC_vs_PUREPURSUIT_04_Phase.png
+50. MPC_vs_PUREPURSUIT_05_Actuator.png
+51. MPC_vs_STANLEY_01_Traj.png
+52. MPC_vs_STANLEY_02_Perf.png
+53. MPC_vs_STANLEY_03_Tire.png
+54. MPC_vs_STANLEY_04_Phase.png
+55. MPC_vs_STANLEY_05_Actuator.png
+56. PUREPURSUIT_vs_STANLEY_01_Traj.png
+57. PUREPURSUIT_vs_STANLEY_02_Perf.png
+58. PUREPURSUIT_vs_STANLEY_03_Tire.png
+59. PUREPURSUIT_vs_STANLEY_04_Phase.png
+60. PUREPURSUIT_vs_STANLEY_05_Actuator.png
+
+[MPC SPECIALIZED ANALYTICS]
+(Specific to MPC runs involving obstacle avoidance logic)
+61. MPC_Obstacle_Trajectory.png (High-fidelity map featuring stalled vehicles and APF safety buffers)
