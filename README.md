@@ -2,6 +2,8 @@ Active Stability System for High-Speed Autonomous Driving 🏎️
 
 📌 Executive Summary
 
+[Read Full Technical Capstone Report (PDF)](./Active_Stability_System_Technical_Report.pdf)
+
 Modern autonomous emergency maneuvers require control architectures that can navigate the narrow boundary between maximum velocity and dynamic instability. Conventional geometric path-tracking algorithms (Pure Pursuit, Stanley) rely on kinematic assumptions that neglect vehicle mass, yaw inertia, and tire-road friction limits, leading to catastrophic "spin-out" failures at high lateral accelerations.
 
 This project utilizes a 100% Model-Based Design (MBD) paradigm to develop a proactive Active Stability System. Utilizing a high-fidelity, non-linear 3-Degree-of-Freedom (3DOF) Single Track dynamic plant, this research evaluates an evolutionary progression of five control models, culminating in an Explicit Model Predictive Controller (MPC) paired with a Smart Throttle and Artificial Potential Fields (APF) for high-speed obstacle avoidance.
